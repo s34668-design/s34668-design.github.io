@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | ณิชชา ร่มโพธิ์แก้ว</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0a0f1c;
+            color: white;
+            line-height: 1.7;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 30px;
+            background:
+                radial-gradient(circle at top, #173b66, transparent 45%),
+                #0a0f1c;
+        }
+
+        .hero {
+            max-width: 800px;
+        }
+
+        .tag {
+            color: #00e5ff;
+            font-size: 18px;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        h1 span {
+            color: #00e5ff;
+        }
+
+        .hero p {
+            color: #b8c7d9;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 28px;
+            border: 1px solid #00e5ff;
+            border-radius: 30px;
+            color: #00e5ff;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #00e5ff;
+            color: #0a0f1c;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 80px 25px;
+        }
+
+        .section-title {
+            font-size: 35px;
+            color: #00e5ff;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: #111a2b;
+            border: 1px solid #263a55;
+            border-radius: 18px;
+            padding: 30px;
+            margin-bottom: 25px;
+        }
+
+        .card h3 {
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #b8c7d9;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+        }
+
+        .skill {
+            background: #111a2b;
+            border: 1px solid #263a55;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            color: #00e5ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #263a55;
+            color: #7f91a8;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 38px;
+            }
+
+            .hero p {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="hero">
+            <div class="tag">WELCOME TO MY PORTFOLIO</div>
+
+            <h1>
+                สวัสดีค่ะ<br>
+                ฉันชื่อ <span>ณิชชา</span>
+            </h1>
+
+            <p>
+                นักเรียนชั้นมัธยมศึกษาปีที่ 6<br>
+                ผู้สนใจเทคโนโลยี การออกแบบ และการพัฒนาตัวเอง
+            </p>
+
+            <a href="#about" class="button">เข้าสู่ Portfolio</a>
+        </div>
+    </header>
+
+
+    <section id="about">
+        <h2 class="section-title">01 / About Me</h2>
+
+        <div class="card">
+            <h3>สวัสดีค่ะ ดิฉันชื่อนางสาวณิชชา ร่มโพธิ์แก้ว</h3>
+
+            <p>
+                ชื่อเล่น โมจิ ปัจจุบันศึกษาอยู่ชั้นมัธยมศึกษาปีที่ 6
+                โรงเรียนบ้านบึงอุตสาหกรรม
+                เป็นคนที่สนใจด้านเทคโนโลยีและการเรียนรู้สิ่งใหม่ ๆ
+                พร้อมพัฒนาทักษะของตนเองอยู่เสมอ
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class="section-title">02 / Education</h2>
+
+        <div class="card">
+            <h3>มัธยมศึกษาปีที่ 6</h3>
+            <p>
+                โรงเรียนบ้านบึงอุตสาหกรรม
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class="section-title">03 / Skills</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">Technology</div>
+            <div class="skill">Creative</div>
+            <div class="skill">Teamwork</div>
+            <div class="skill">Problem Solving</div>
+            <div class="skill">Learning</div>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class="section-title">04 / Activities</h2>
+
+        <div class="card">
+            <h3>กิจกรรมและผลงาน</h3>
+            <p>
+                พื้นที่สำหรับรวบรวมกิจกรรม ผลงาน โครงการ
+                และประสบการณ์ต่าง ๆ ที่ได้เข้าร่วม
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class="section-title">05 / Certificates</h2>
+
+        <div class="card">
+            <h3>เกียรติบัตร</h3>
+            <p>
+                พื้นที่สำหรับรวบรวมเกียรติบัตรและความสำเร็จ
+                จากกิจกรรมต่าง ๆ
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <h2 class="section-title">06 / Contact</h2>
+
+        <div class="card">
+            <h3>Contact Me</h3>
+            <p>
+                Email: ใส่อีเมลของโมจิภายหลัง
+            </p>
+        </div>
+    </section>
+
+
+    <footer>
+        © 2026 Nitcha Romphokaew | My Portfolio
+    </footer>
+
+</body>
+</html>
